@@ -1,0 +1,39 @@
+{{ define "main" }}
+  {{ partial "heading.html" . }}
+  {{ .Content }}
+  {{ range .Paginator.Pages.GroupByPublishDate "2006" }}
+    <h2>{{ .Key }}</h2>
+    <ul>
+    {{ range .Pages }}
+      <li>
+        {{ if .Params.categories }}
+          {{ $categories := slice }}
+          {{ if reflect.IsSlice .Params.categories }}
+            {{ $categories = .Params.categories }}
+          {{ else }}
+            {{ $categories = slice .Params.categories }}
+          {{ end }}
+          {{ range $categories }}
+            <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" style="font-weight: bold; text-decoration: none;">{{ . }}</a>
+          {{ end }}
+        {{ end }}
+        :
+        <a href="{{ .RelPermalink }}" style="text-decoration: none;">{{ .Title }}</a> 
+
+        {{ if .Params.tags }}
+          {{ $tags := slice }}
+          {{ if reflect.IsSlice .Params.tags }}
+            {{ $tags = .Params.tags }}
+          {{ else }}
+            {{ $tags = slice .Params.tags }}
+          {{ end }}
+          {{ range $tags }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="Tags-link u-clickable Tags-item u-background">{{ . }}</a>
+          {{ end }}
+        {{ end }}
+
+    </li>
+    {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
