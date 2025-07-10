@@ -1,10 +1,6 @@
 {
    "date": "2008-01-12",
-   "authors": "P. G. Wodehouse",
-   "persons": [
-      "Hugh Laurie",
-      "Stephen Fry"
-   ],
+   "tags": ["P. G. Wodehouse","Hugh Laurie", "Stephen Fry"],
    "categories": "Видеоряд",
    "title": "Jeeves and Wooster"
 }

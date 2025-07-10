@@ -1,6 +1,6 @@
 {
    "date": "2008-12-30",
-   "authors": "Jim Jarmusch",
+   "tags": "Jim Jarmusch",
    "categories": "Видеоряд",
    "title": "Dead Man"
 }

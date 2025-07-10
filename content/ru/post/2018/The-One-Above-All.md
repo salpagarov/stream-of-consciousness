@@ -3,7 +3,7 @@
       "Календарь"
    ],
    "date": "2018-11-12",
-   "persons": [
+   "tags": [
       "Stan Lee"
    ],
    "title": "The-One-Above-All"

@@ -72,15 +72,11 @@ menu:
     - name: Метки
       pageRef: /tags
       weight: 2
-    - name: Авторы
-      pageRef: /authors
-      weight: 3
     - name: Персоны
       pageRef: /persons
-      weight: 4
+      weight: 3
       
 taxonomies:
   category: categories
-  author: authors
   tag: tags
   person: persons

@@ -1,5 +1,5 @@
 {
-   "authors": "Quentin Tarantino",
+   "tags": "Quentin Tarantino",
    "categories": "Видеоряд",
    "date": "2016-09-20",
    "title": "The Hateful Eight"

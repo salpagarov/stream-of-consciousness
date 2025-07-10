@@ -1,8 +1,7 @@
 {
-   "authors": "Nicolas Winding Refn",
+   "tags": ["Nicolas Winding Refn", "Ryan Gosling"],
    "categories": "Видеоряд",
    "date": "2013-04-15",
-   "persons": "Ryan Gosling",
    "title": "Drive"
 }
 

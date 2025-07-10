@@ -1,5 +1,5 @@
 {
-   "authors": "Quentin Tarantino",
+   "tags": "Quentin Tarantino",
    "categories": "Видеоряд",
    "date": "2013-02-07",
    "title": "Inglourious Basterds"

@@ -1,5 +1,5 @@
 {
-   "authors": "George Orwell",
+   "tags": "George Orwell",
    "categories": "Цитаты",
    "date": "2017-03-27",
    "title": "All animals are equal"

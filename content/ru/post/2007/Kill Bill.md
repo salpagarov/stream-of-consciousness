@@ -1,5 +1,5 @@
 {
-   "authors": "Quentin Tarantino",
+   "tags": "Quentin Tarantino",
    "categories": "Видеоряд",
    "date": "2007-10-11",
    "title": "Kill Bill"
