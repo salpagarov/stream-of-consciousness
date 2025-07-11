@@ -1,6 +1,6 @@
 {
    "date": "2008-01-12",
-   "persons": "Frank Oz",
+   "tags": "Frank Oz",
    "categories": "Видеоряд",
    "title": "Смерть на похоронах"
 }

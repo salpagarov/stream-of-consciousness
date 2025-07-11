@@ -3,7 +3,7 @@
       "Книги"
    ],
    "date": "2005-06-06",
-   "persons": [
+   "tags": [
       "Roger Zelazny"
    ],
    "title": "Хроники Амбера"

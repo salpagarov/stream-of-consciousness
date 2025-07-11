@@ -1,4 +1,11 @@
-{"date":"2005-06-01","persons":"George Lucas","title":"Звездные войны - эпизод 5","categories":["Видеоряд"],"tags":["Star Wars"]}
+{
+    "date":"2005-06-01",
+    "title":"Звездные войны - эпизод 5",
+    "categories":["Видеоряд"],
+    "tags":[
+	"Star Wars", "George Lucas"
+    ]
+}
 
 **Империя наносит ответный удар**
 

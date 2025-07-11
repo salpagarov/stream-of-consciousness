@@ -1,5 +1,5 @@
 {
-   "persons": "Quentin Tarantino",
+   "tags": "Quentin Tarantino",
    "categories": "Видеоряд",
    "date": "2006-07-12",
    "title": "Jackie Brown"

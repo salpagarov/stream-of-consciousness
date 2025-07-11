@@ -1,4 +1,11 @@
-{"date":"2005-06-04","persons":"George Lucas","title":"Звездные войны - эпизод 1","categories":["Видеоряд"],"tags":["Star Wars"]}
+{
+    "date":"2005-06-04",
+    "title":"Звездные войны - эпизод 1",
+    "categories":["Видеоряд"],
+    "tags":[
+	"Star Wars", "George Lucas"
+    ]
+}
 
 **Призрачная угроза**
 

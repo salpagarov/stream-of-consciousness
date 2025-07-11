@@ -1,7 +1,6 @@
 {
    "date": "2019-01-11",
-   "tags": "Space Engine",
-   "persons" : "Владимир Романюк",
+   "tags": ["Space Engine","Владимир Романюк"],
    "categories": "Soft",
    "title": "Cosmic Fail"
 }

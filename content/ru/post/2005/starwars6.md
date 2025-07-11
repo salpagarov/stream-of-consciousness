@@ -1,4 +1,11 @@
-{"date":"2005-06-02","persons":"George Lucas","title":"Звездные войны - эпизод 6","categories":["Видеоряд"],"tags":["Star Wars"]}
+{
+    "date":"2005-06-02",
+    "title":"Звездные войны - эпизод 6",
+    "categories":["Видеоряд"],
+    "tags":[
+	"Star Wars", "George Lucas"
+    ]
+}
 
 **Возвращение Джедая**
 

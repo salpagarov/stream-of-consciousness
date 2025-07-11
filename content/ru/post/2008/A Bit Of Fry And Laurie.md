@@ -1,6 +1,6 @@
 {
    "date": "2008-01-30",
-   "persons": [
+   "tags": [
       "Hugh Laurie",
       "Stephen Fry"
    ],

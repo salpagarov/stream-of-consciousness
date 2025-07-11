@@ -5,9 +5,9 @@
    "date": "2020-08-13",
    "tags": [
       "Arkane Studios",
-      "Cry Engine"      
+      "Cry Engine",
+      "Mick Gordon"
    ],
-   "persons" : "Mick Gordon",
    "title": "Prey"
 }
 
