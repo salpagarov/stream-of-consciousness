@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+
+    <section class="py-10">
+      {{ range .Pages }}
+        <div>{{ partial "item.html" . }}</div>
+      {{ end }}
+    </section>
+  </article>
+{{ end }}

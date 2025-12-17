@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <article>{{ .Content }}</article>
+
+  {{ $tax := "categories" }}
+  {{ with $.Site.GetPage $tax }}
+    {{ if .Pages }}
+      <div>
+        <ul>
+          {{ range .Pages.ByTitle }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              {{ if gt .Pages 0 }}
+                <sup>{{ len .Pages }}</up>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

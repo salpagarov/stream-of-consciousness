@@ -1,0 +1,11 @@
+<ul class="flex list-none mt-20 ml-0 p-0">
+  {{ with .GetTerms "tags" }}
+    {{ range . }}
+      <li class="mr-3">
+        <a class="px-4 py-2" href="{{ .RelPermalink }}">
+          {{ .LinkTitle }}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
