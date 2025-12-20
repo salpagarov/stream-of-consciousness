@@ -1,6 +1,6 @@
 #baseURL: 
 #languageCode: ru-ru
-theme: photophobia
+theme: hugo-flex
 
 DefaultContentLanguage: ru
 SectionPagesMenu: main
